@@ -1,0 +1,86 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function searchTitles() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const titles = document.querySelectorAll('.title');
+            titles.forEach(title => {
+                if (title.textContent.toLowerCase().includes(input)) {
+                    title.parentElement.style.display = '';
+                } else {
+                    title.parentElement.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans p-4 sm:p-6 flex justify-center overflow-x-hidden">
+    <div class="w-full max-w-2xl">
+        <div class="mb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold mb-6 text-center text-blue-600">Daftar Episode</h1>
+            <input id="searchInput" type="text" placeholder="Cari judul..." class="border border-gray-300 p-2 sm:p-3 mb-6 w-full rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" onkeyup="searchTitles()">
+        </div>
+        <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg mb-6 break-words">
+            <p class="title text-xl sm:text-2xl font-semibold mb-4 text-blue-600">Attack on Titan Wings of Freedom</p>
+            <p class="text-gray-700 mb-2">Rp3.500</p>
+            <p class="text-gray-700 mb-2">part 1</p>
+        </div>
+        <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg mb-6 break-words">
+            <p class="title text-xl sm:text-2xl font-semibold mb-4 text-blue-600">Shop Simulator Waifu Pillows</p>
+            <p class="text-gray-700 mb-2">3.500</p>
+            <p class="text-gray-700 mb-2">https://drive.usercontent.google.com/download?id=16dn7CZYJLQ6oMteS6p5PKIkR90vzddsv&export=download&authuser=0</p>
+        </div>
+        <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg mb-6 break-words">
+            <p class="title text-xl sm:text-2xl font-semibold mb-4 text-blue-600">Kenshi</p>
+            <p class="text-gray-700 mb-2">3.500</p>
+            <p class="text-gray-700 mb-2">https://gofile.io/d/c5G2Gy</p>
+            <p class="text-gray-700 mb-2">https://download.megaup.net/?idurl=0lixLaV5L89JKamcHXUbeuCe7meLjTGP/hm1NXGQCEKCur41LR8CAA8QmEFfesV51Ko3SN+GrbKY2xNycnuDSPt4gt9jhiTYKsbpbN8Mm+fUEFdTbELRqHJcAErlZsII3UM7//nDxs8Lp+j6RzNoxg==&idfilename=Kenshi.v1.0.68.rar&idfilesize=6.23%20GB</p>
+        </div>
+        <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg mb-6 break-words">
+            <p class="title text-xl sm:text-2xl font-semibold mb-4 text-blue-600">jancok</p>
+            <p class="text-gray-700 mb-2">0</p>
+            <p class="text-gray-700 mb-2">part 1</p>
+            <p class="text-gray-700 mb-2">sfsjbfodsfosbfobdf</p>
+            <p class="text-gray-700 mb-2">part 2</p>
+            <p class="text-gray-700 mb-2">oidajsdoabdoaisbd</p>
+            <p class="text-gray-700 mb-2">part 3</p>
+            <p class="text-gray-700 mb-2">odkandpona</p>
+            <p class="text-gray-700 mb-2">torent</p>
+            <p class="text-gray-700 mb-2">12112030400041002310230120302103201301203012302104820840128038102043201380128204104801234013401203</p>
+        </div>
+        <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg mb-6 break-words">
+            <p class="title text-xl sm:text-2xl font-semibold mb-4 text-blue-600">lah</p>
+            <p class="text-gray-700 mb-2">0</p>
+            <p class="text-gray-700 mb-2">part 1</p>
+            <p class="text-gray-700 mb-2">sfsjbfodsfoshhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhbfobdf</p>
+            <p class="text-gray-700 mb-2">part 2</p>
+            <p class="text-gray-700 mb-2">oidajsdoabdoaisbddghdfghdfghdfghdfghfdghdfghgfdhdfghdfghdfghfdghdfghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+            <p class="text-gray-700 mb-2">part 3</p>
+            <p class="text-gray-700 mb-2">odkandponafasefgsgferghdfsghsrthsgthfghshshthgfshsgfhsdhghssgthsfghshttshsrhtsfgshgfghsfhjdgfjdghjdghjdfghdfrthdfghdfgh</p>
+            <p class="text-gray-700 mb-2">part 2</p>
+            <p class="text-gray-700 mb-2">oidajsdoabdoaisbddghdfghdfghdfghdfghfdghdfghgfdhdfghdfghdfghfdghdfghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+            <p class="text-gray-700 mb-2">torent</p>
+            <p class="text-gray-700 mb-2">12112030400041002310230120302103201301203012302104820840128038102043201380128204104801234013401203</p>
+        </div>
+        <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg mb-6 break-words">
+            <p class="title text-xl sm:text-2xl font-semibold mb-4 text-blue-600">naruto shipuden</p>
+            <p class="text-gray-700 mb-2">0</p>
+            <p class="text-gray-700 mb-2">part 1</p>
+            <p class="text-gray-700 mb-2">sfsjbfodsfosbfobdf</p>
+            <p class="text-gray-700 mb-2">part 2</p>
+            <p class="text-gray-700 mb-2">oidajsdoabdoaisbd</p>
+            <p class="text-gray-700 mb-2">part 3</p>
+            <p class="text-gray-700 mb-2">odkandpona</p>
+            <p class="text-gray-700 mb-2">torent</p>
+            <p class="text-gray-700 mb-2">12112030400041002310230120302103201301203012302104820840128038102043201380128204104801234013401203</p>
+        </div>
+        <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg mb-6 break-words">
+            <p class="title text-xl sm:text-2xl font-semibold mb-4 text-blue-600">Spaceflight Simulator</p>
+            <p class="text-gray-700 mb-2">harga Rp2.000</p>
+            <p class="text-gray-700 mb-2">part 1</p>
+            <p class="text-gray-700 mb-2">https://drive.google.com/uc?export=download&id=1Rv9u6fjgi8XC8sRPqyezBZZzzGVSsunW</p>
+        </div>
+    </div>
+</body>
+</html>
